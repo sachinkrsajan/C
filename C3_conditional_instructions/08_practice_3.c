@@ -26,7 +26,7 @@ int main(){
     else {
         printf("For your salary %d income tax will be 0");
     }
-
+    
     return 0;
 
 }
