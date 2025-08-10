@@ -5,9 +5,8 @@ int main() {
     int i=1;
     int sum1=0;
     while (i<=10){
-        int m= n*i;
-        sum1+=m;
-        printf("%d\n",m);
+        
+        sum1+=n*i;
         i++;
     }
     printf("The sum of all multiples of 8 is %d\n",sum1);
