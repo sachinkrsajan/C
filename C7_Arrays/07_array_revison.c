@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int marks[5];
-    printf("Enter the marks of 5 students:\n");
-    for (int i=0 ; i<5 ; i++){
-        scanf("%d",&marks[i]);
-    }
+    int a=10;
+    float f=5.0;
+    char c1='a';
+    int* ptr1=&a;
+    float* ptr2=&f;
+    char* ptr3=&c1;
 
-    for (int i=0 ; i<5 ; i++){
-        printf("The address of marks at index %d is %u\n",i,&marks[i]);
-    }
-    return 0;
+    int marks[]={};
+    marks[0]=1;
+    printf("%d\n",marks[0]);
+
 }
