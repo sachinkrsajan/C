@@ -1,6 +1,6 @@
 #include <stdio.h>
 char* slice(char str[],int m,int n){
-    int i=0,count;
+    
     char* ptr1=&str[m];
     printf("%s\n",ptr1);
     printf("%d\n",ptr1);
