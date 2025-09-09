@@ -21,3 +21,5 @@ int main() {
     printf("Employee name=%s , salary= %f lpa and code= %d\n",e1.name,e1.salary,e1.code);
     return 0;
 }
+
+// revision on this topic
