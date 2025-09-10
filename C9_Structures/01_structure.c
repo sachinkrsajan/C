@@ -22,4 +22,3 @@ int main() {
     return 0;
 }
 
-// revision on this topic
