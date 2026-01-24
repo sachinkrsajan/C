@@ -5,6 +5,6 @@ int main() {
     gets (st);
     // printf("%s",st);
     puts(st);
-    printf("hey");
+    //printf("hey\nwassup");
     return 0;
 }
